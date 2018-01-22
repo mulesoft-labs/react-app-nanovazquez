@@ -1,0 +1,32 @@
+{
+  "name": "react-app",
+  "appInfo": {
+    "name": "react-app",
+    "type": "app"
+  },
+  "version": "0.1.0",
+  "private": true,
+  "main": "src/index.js",
+  "license": "SEE LICENSE IN LICENSE.md",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "coverage": "react-scripts test --coverage",
+    "lint": "react-scripts lint"
+  },
+  "dependencies": {
+    "@mulesoft/anypoint-components": "^2.132.0",
+    "@mulesoft/anypoint-icons": "^4.7.2",
+    "@mulesoft/anypoint-styles": "^3.1.1",
+    "@mulesoft/anypoint-ui-react-services": "^0.4.1",
+    "prop-types": "^15.6.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@mulesoft/react-scripts-app": "^0.15.0",
+    "enzyme": "^3.0.0",
+    "expect": "^21.2.1"
+  }
+}

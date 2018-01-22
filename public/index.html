@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>React App</title>
+    <link rel="shortcut icon" href="https://cdn.anypoint.mulesoft.com/core/v1/icons/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="stylesheet" href="/static/anypoint-styles/styles.css">
+  </head>
+  <body class="anypoint-styles">
+    <div id="root"></div>
+
+    <% if (webpackConfig.devtool) { %>
+      <!-- React and ReactDOM (dev scripts) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.development.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.development.js"></script>
+    <% } else { %>
+      <!-- React and ReactDOM (prod scripts) -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react/16.2.0/umd/react.production.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/16.2.0/umd/react-dom.production.min.js"></script>
+    <% } %>
+  </body>
+</html>
