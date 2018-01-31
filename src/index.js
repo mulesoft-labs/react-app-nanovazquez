@@ -7,7 +7,7 @@ import './styles.scss';
 const mainAppContainer = document.getElementById('root');
 
 const renderMainApp = () => {
-  const authCredentials = { clientId: 'ui-shell', oauthRedirectUri: '/' };
+  const authCredentials = { clientId: 'cloudhub', oauthRedirectUri: '/' };
   const MainApp = require('./components').default; // eslint-disable-line global-require
   render(
     <ShellContext

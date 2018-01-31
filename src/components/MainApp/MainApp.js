@@ -23,8 +23,8 @@ class MainApp extends React.PureComponent {
       method: 'GET',
       headers: new Headers({
         Authorization: userToken,
-        'X-ANYPNT-ORG-ID': '<YOUR_ORGANIZATION_ID>',
-        'X-ANYPNT-ENV-ID': '<YOUR_ENVIRONMENT_ID>',
+        'X-ANYPNT-ORG-ID': 'f0c9b011-980e-4928-9430-e60e3a97c043',
+        'X-ANYPNT-ENV-ID': '45df357b-df3e-43b6-a352-12ce1b9eb71c',
       }),
     };
 
